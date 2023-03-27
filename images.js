@@ -30,7 +30,7 @@ imageWhenSlideron.forEach(element =>
     // ======================= Change image on buttonclick =======================
 const findimg = element => {
 let text = mainImage.src;
-text =text.replaceAll('http://127.0.0.1:5500/ecommerce-product-page-main/',"");
+text =text.replaceAll('https://andrusik1.github.io/Sneakers-Shop-Frontendmentor/',"");
 console.log(text);
 return text;
 };
@@ -61,7 +61,7 @@ const changeImgArrows = type =>
 
 const findimgm = element => {
 let text = mainImageMobile.src;
-text =text.replaceAll('https://andrusik1.github.io/Sneakers-Shop-Frontendmentor/',""); //a
+text =text.replaceAll('https://andrusik1.github.io/Sneakers-Shop-Frontendmentor/',"");
 console.log(text);
 return text;
 };
