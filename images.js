@@ -61,7 +61,7 @@ const changeImgArrows = type =>
 
 const findimgm = element => {
 let text = mainImageMobile.src;
-text =text.replaceAll('https://andrusik1.github.io/Sneakers-Shop-Frontendmentor/',"");
+text =text.replaceAll('https://andrusik1.github.io/Sneakers-Shop-Frontendmentor/',""); //a
 console.log(text);
 return text;
 };
